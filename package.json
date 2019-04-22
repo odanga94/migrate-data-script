@@ -1,0 +1,17 @@
+{
+  "name": "migrate-data-script",
+  "version": "1.0.0",
+  "description": "a script to migrate data from one one json file to another",
+  "main": "migrate-data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-dev migrate-data.js"
+  },
+  "author": "John Odanga",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.2",
+    "mongodb": "^3.2.3",
+    "node-dev": "^4.0.0"
+  }
+}
